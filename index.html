@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu interativo</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="body.css">
+
+</head>
+<body>
+    <main>
+    <header>
+    <nav>
+        <a class="logo" href="/">To Do List</a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/">Início</a></li>
+            <li><a href="/">Sobre</a></li>
+            <li><a href="/">Projetos</a></li>
+            <li><a href="/">Contatos</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+        <div class="form">
+            <form>
+            Data: <input type="date" required name="tdata" id="tdata">
+            Tarefa: <input type="text" required name="ttarefa" id="ttarefa">
+            <button type="submit">Adicionar +</button>
+        </form>
+        </div>
+        <div class="tabela">
+            <ul id="list">
+            <div class="dados">
+                
+            </div>
+            </ul>
+        </div>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="menu-nav.js"></script>
+    <script src="list.js"></script>
+</body>
+</html>
